@@ -1,2 +1,2 @@
 # SimplyCooked
-git add hello
+hello
