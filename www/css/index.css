@@ -48,13 +48,14 @@
  }
 
  .content {
-    display: block;
+     display: block;
      background-color: blue;
      height: calc(100% - 120px);
+     position: relative;
  }
 
  .footer {
-    display: block;
+     display: block;
      background-color: yellow;
      height: 60px;
  }
@@ -64,6 +65,9 @@
 
  .recipe_view {
     background-color: black;
+    position: absolute;
+    overflow: scroll;
+    height: 100%;
  }
 
  .recipe_btn {
