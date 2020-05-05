@@ -32,9 +32,11 @@
  }
 
  p {
-    padding: 0;
+    padding-bottom: 15px;
     margin: 0;
 }
+
+
 
  .app {
      background-color: aqua;
@@ -43,7 +45,7 @@
 
  .header {
      display: block;
-     background-color: red;
+     background-color: #953255;
      height: 60px;
  }
 
@@ -56,7 +58,7 @@
 
  .footer {
      display: block;
-     background-color: yellow;
+     background-color: #953255;
      height: 60px;
  }
 
@@ -80,7 +82,7 @@
 
 
  .left_recipe_view {
-     background-color: green;
+     background-color: #8EA59A;
      height: 100%;
      width: 50%;
      float: left;
@@ -94,7 +96,7 @@
 
 
  .right_recipe_view {
-     background-color: orange;
+     background-color: #E2E6C6;
      width: 50%;
      float: right;  
  } 
