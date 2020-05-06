@@ -32,13 +32,12 @@
  }
 
  h1 {
-     margin: 0;
      color: #E2E6C6;
      font-size: 100%;
+     margin: 0;
  }
 
  p {
-    padding-bottom: 15px;
     margin: 0;
  }
 
@@ -50,6 +49,7 @@
  }
 
 
+
 /* HEADER CSS */
  .header {
      display: block;
@@ -59,15 +59,14 @@
 
  .header_left {
      width: 65%;
+     line-height: 60px;
      float: left;
-     height: 100%;
  }
 
  .header_right {
      width: 35%;
+     line-height: 60px;
      float: right;
-     text-align: center;
-     height: 100%;
  }
 
 
@@ -112,6 +111,7 @@
      background-color: #E2E6C6;
      width: 50%;
      float: right;  
+     padding-bottom: 15px;
  } 
  
  .recipe_text {
