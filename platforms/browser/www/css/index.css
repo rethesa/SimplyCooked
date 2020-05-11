@@ -37,12 +37,8 @@
      margin: 0;
  }
 
- p {
-    margin: 0;
- }
-
-
-
+ 
+ 
  .app {
      background-color: aqua;
      height: 100%;
@@ -111,12 +107,21 @@
      background-color: #E2E6C6;
      width: 50%;
      float: right;  
-     padding-bottom: 15px;
+     padding-top: 2em;
+     padding-bottom: 2em;
  } 
  
- .recipe_text {
-    padding: 10px; 
- }
+.recipe_title {
+    font-size: 1em;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.recipe_rating {
+    font-size: 1em;
+    font-family: sans-serif;
+    padding-top: 1em;
+}
 
 
 /* FOOTER CCS */
