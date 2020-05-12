@@ -42,7 +42,7 @@
 /* HEADER CSS */
  header {
      display: block;
-     background-color: #953255;
+     background-color: #586500;
      height: 60px;
  }
 
@@ -120,9 +120,37 @@
 /* FOOTER CCS */
 nav {
     display: block;
-    background-color: #953255;
+    background-color: #586500;
     height: 60px;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+  }
+  
+li {
+    float: left;
+    width: 33%;
+}
+  
+li a {
+    display: block;
+    color: #E2E6C6;
+    text-align: center;
+    /* padding: 14px 16px; */
+    line-height: 60px;
+    text-decoration: none;
+ }
+  
+.active {
+    background-color: #780830;
+    height: 100%;
+}
+
 
 
 
