@@ -28,13 +28,6 @@
      margin: 0; 
      padding: 0;
  }
-
- h1 {
-     color: #E2E6C6;
-     font-size: 100%;
-     margin: 0;
- }
-
  
  
 /* HEADER CSS */
@@ -43,6 +36,18 @@
      background-color: #586500;
      height: 60px;
  }
+
+ h1 {
+    color: #E2E6C6;
+    font-size: 100%;
+    margin: 0;
+}
+
+h2 {
+    font-size: 100%;
+    margin: 0;
+    padding-bottom: 1em;
+}
 
  .header_left {
      width: 65%;
