@@ -18,14 +18,12 @@
  */
 
  html {
-    background-color: coral;
     height: 100%;
     margin: 0; 
     padding: 0;
  }
 
  body {
-     background-color: black;
      height: 100%;
      margin: 0; 
      padding: 0;
@@ -60,19 +58,19 @@
 
 
 
-/* CONTENT CSS */
+/* MAIN / CONTENT CSS */
  main {
      display: block;
-     background-color: blue;
+     background-color: #E2E6C6;
      height: calc(100% - 120px);
      position: relative;
  }
 
  .recipe_view {
-    background-color: black;
     position: absolute;
     overflow: scroll;
     height: 100%;
+    width: 100%;
  }
 
  .recipe_btn {
@@ -117,7 +115,7 @@
 }
 
 
-/* FOOTER CCS */
+/* NAV / FOOTER CCS */
 nav {
     display: block;
     background-color: #586500;
@@ -134,14 +132,13 @@ ul {
   
 li {
     float: left;
-    width: 33%;
+    width: 33.3%;
 }
   
 li a {
     display: block;
     color: #E2E6C6;
     text-align: center;
-    /* padding: 14px 16px; */
     line-height: 60px;
     text-decoration: none;
  }
