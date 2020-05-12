@@ -39,15 +39,8 @@
 
  
  
- .app {
-     background-color: aqua;
-     height: 100%;
- }
-
-
-
 /* HEADER CSS */
- .header {
+ header {
      display: block;
      background-color: #953255;
      height: 60px;
@@ -68,7 +61,7 @@
 
 
 /* CONTENT CSS */
- .content {
+ main {
      display: block;
      background-color: blue;
      height: calc(100% - 120px);
@@ -125,7 +118,7 @@
 
 
 /* FOOTER CCS */
- .footer {
+nav {
     display: block;
     background-color: #953255;
     height: 60px;

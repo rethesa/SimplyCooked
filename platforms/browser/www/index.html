@@ -25,9 +25,11 @@
     <meta charset="utf-8" />
     <meta name="format-detection" content="telephone=no" />
     <meta name="msapplication-tap-highlight" content="no" />
-    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <meta name="viewport"
+        content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
     <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
-    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
     <!-- Good default declaration:
     * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
     * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
@@ -43,106 +45,101 @@
 </head>
 
 <body>
-    <div class="app">
-        <div class="header">
-            <div class="header_left">
-                <h1>Max Mustermann</h1>
-            </div>
-            <div class="header_right">
-                <h1>Punkte: 70</h1>
-            </div>
+    <header>
+        <div class="header_left">
+            <h1>Max Mustermann</h1>
         </div>
-        <div class="content">
-            <div class="recipe_view"> 
-                <!-- <button type="button" id="btn_recipe"onclick="alert('Hello world!')">Pfannenkuchen</button> -->
+        <div class="header_right">
+            <h1>Punkte: 70</h1>
+        </div>
+    </header>
 
-                <button class="recipe_btn" onclick="alert('Hello world!')">
-                    <div class="left_recipe_view">
-                        <img class="recipe_img" src="res/recipes/panncakes.jpg"/>
-                    </div>
-                    <div class="right_recipe_view">
-                        <div class="recipe_title">Pfannenkuchen</h4>
+    <main>
+        <div class="recipe_view">
+            <!-- <button type="button" id="btn_recipe"onclick="alert('Hello world!')">Pfannenkuchen</button> -->
+            <button class="recipe_btn" onclick="alert('Hello world!')">
+                <div class="left_recipe_view">
+                    <img class="recipe_img" src="res/recipes/panncakes.jpg" />
+                </div>
+                <div class="right_recipe_view">
+                    <div class="recipe_title">Pfannenkuchen</h4>
                         <div class="recipe_rating">&#x2605 &#x2605 &#x2605 &#x2605 &#x2606</div>
                     </div>
-                </button>
-
-                <button class="recipe_btn">
-                    <div class="left_recipe_view">
-                        <img class="recipe_img" src="res/recipes/waffle.jpg"/>
-                    </div>
-                    <div class="right_recipe_view">
-                        <div class="recipe_title">Waffeln</div>
-                        <div class="recipe_rating">&#x2605 &#x2605 &#x2605 &#x2606 &#x2606</div>
-                    </div>
-                </button>
-
-                <button class="recipe_btn">
-                    <div class="left_recipe_view">
-                        <img class="recipe_img" src="res/recipes/pizza.jpg"/>
-                    </div>
-                    <div class="right_recipe_view">
-                        <div class="recipe_title">Pizza</div>
-                        <div class="recipe_rating">&#x2605 &#x2605 &#x2605 &#x2605 &#x2605</div>
-                    </div>
-                </button>
-
-                <button class="recipe_btn">
-                    <div class="left_recipe_view">
-                        <img class="recipe_img" src="res/recipes/spaghetti.jpg"/>
-                    </div>
-                    <div class="right_recipe_view">
-                        <div class="recipe_title">Spaghetti</div>
-                        <div class="recipe_rating">&#x2605 &#x2605 &#x2606 &#x2606 &#x2606</div>
-                    </div>
-                </button>
-
-                <button class="recipe_btn">
-                    <div class="left_recipe_view">
-                        <img class="recipe_img" src="res/recipes/tacos.jpg"/>
-                    </div>
-                    <div class="right_recipe_view">
-                        <div class="recipe_title">Tacos</div>
-                        <div class="recipe_rating">&#x2605 &#x2605 &#x2605 &#x2605 &#x2606</div>
-                    </div>
-                </button>
-
-                <button class="recipe_btn">
-                    <div class="left_recipe_view">
-                        <img class="recipe_img" src="res/recipes/pumkin.jpg"/>
-                    </div>
-                    <div class="right_recipe_view">
-                        <div class="recipe_title">Kürbissuppe</div>
-                        <div class="recipe_rating">&#x2605 &#x2605 &#x2605 &#x2605 &#x2606</div>
-                    </div>
-                </button>
-
-                <button class="recipe_btn">
-                    <div class="left_recipe_view">
-                        <img class="recipe_img" src="res/recipes/applepie.jpg"/>
-                    </div>
-                    <div class="right_recipe_view">
-                        <div class="recipe_title">Apfelkuchen</div>
-                        <div class="recipe_rating">&#x2605 &#x2605 &#x2605 &#x2605 &#x2605</div>
-                    </div>
-                </button>
-
-                <button class="recipe_btn">
-                    <div class="left_recipe_view">
-                        <img class="recipe_img" src="res/recipes/bred.jpg"/>
-                    </div>
-                    <div class="right_recipe_view">
-                        <div class="recipe_title">Brot</div>
-                        <div class="recipe_rating">&#x2605 &#x2605 &#x2605 &#x2606 &#x2606</div>
-                    </div>
-                </button>
-            
-            </div>
+            </button>
+            <button class="recipe_btn">
+                <div class="left_recipe_view">
+                    <img class="recipe_img" src="res/recipes/waffle.jpg" />
+                </div>
+                <div class="right_recipe_view">
+                    <div class="recipe_title">Waffeln</div>
+                    <div class="recipe_rating">&#x2605 &#x2605 &#x2605 &#x2606 &#x2606</div>
+                </div>
+            </button>
+            <button class="recipe_btn">
+                <div class="left_recipe_view">
+                    <img class="recipe_img" src="res/recipes/pizza.jpg" />
+                </div>
+                <div class="right_recipe_view">
+                    <div class="recipe_title">Pizza</div>
+                    <div class="recipe_rating">&#x2605 &#x2605 &#x2605 &#x2605 &#x2605</div>
+                </div>
+            </button>
+            <button class="recipe_btn">
+                <div class="left_recipe_view">
+                    <img class="recipe_img" src="res/recipes/spaghetti.jpg" />
+                </div>
+                <div class="right_recipe_view">
+                    <div class="recipe_title">Spaghetti</div>
+                    <div class="recipe_rating">&#x2605 &#x2605 &#x2606 &#x2606 &#x2606</div>
+                </div>
+            </button>
+            <button class="recipe_btn">
+                <div class="left_recipe_view">
+                    <img class="recipe_img" src="res/recipes/tacos.jpg" />
+                </div>
+                <div class="right_recipe_view">
+                    <div class="recipe_title">Tacos</div>
+                    <div class="recipe_rating">&#x2605 &#x2605 &#x2605 &#x2605 &#x2606</div>
+                </div>
+            </button>
+            <button class="recipe_btn">
+                <div class="left_recipe_view">
+                    <img class="recipe_img" src="res/recipes/pumkin.jpg" />
+                </div>
+                <div class="right_recipe_view">
+                    <div class="recipe_title">Kürbissuppe</div>
+                    <div class="recipe_rating">&#x2605 &#x2605 &#x2605 &#x2605 &#x2606</div>
+                </div>
+            </button>
+            <button class="recipe_btn">
+                <div class="left_recipe_view">
+                    <img class="recipe_img" src="res/recipes/applepie.jpg" />
+                </div>
+                <div class="right_recipe_view">
+                    <div class="recipe_title">Apfelkuchen</div>
+                    <div class="recipe_rating">&#x2605 &#x2605 &#x2605 &#x2605 &#x2605</div>
+                </div>
+            </button>
+            <button class="recipe_btn">
+                <div class="left_recipe_view">
+                    <img class="recipe_img" src="res/recipes/bred.jpg" />
+                </div>
+                <div class="right_recipe_view">
+                    <div class="recipe_title">Brot</div>
+                    <div class="recipe_rating">&#x2605 &#x2605 &#x2605 &#x2606 &#x2606</div>
+                </div>
+            </button>
         </div>
-        <div class="footer">
-            footer
-        </div>
-        
-    </div>
+    </main>
+
+    <nav>
+        footer
+        <!-- <ul>
+            <li><a href="#">Add Recipes</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Codes</a></li>
+        </ul> -->
+    </nav>
 </body>
 
 </html>
